@@ -1,0 +1,58 @@
+// head {
+@__nodeId__: ~"wrappers_node__main";
+// }
+
+.@{__nodeId__} {
+
+    > .switcher {
+        background-color: #272727;
+
+        .button {
+            cursor: pointer;
+            float: left;
+            padding: 7px 10px;
+            color: #858585;
+
+            &.enabled {
+
+                &.cp {
+                    color: #FFFFFF;
+                }
+
+                &.ui {
+                    color: #FFFFFF;
+                }
+            }
+
+            &.globally_disabled {
+
+                &.ui {
+                    color: #FF0000;
+                }
+            }
+
+            &:hover {
+                background-color: #505050;
+            }
+        }
+
+        .path {
+            float: left;
+            padding: 8px 10px 6px;
+            color: #606060;
+            font-size: 13px;
+
+            &:hover {
+                background-color: #505050;
+
+                .icon {
+                    color: #CCCCCC;
+                }
+            }
+        }
+    }
+
+    > .cp {
+        margin-bottom: 10px;
+    }
+}
