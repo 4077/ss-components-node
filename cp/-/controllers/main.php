@@ -51,7 +51,7 @@ class Main extends \Controller
 
     public function onNodeReload()
     {
-        $this->unpackModels();
+//        $this->unpackModels();
 
 //        $this->widget(':|', 'setHeight', $this->s(':height|'));
 //        $this->widget(':|', 'bindResizable');
@@ -61,7 +61,7 @@ class Main extends \Controller
     {
 //        $this->unpackModels();
 //
-//        $this->c('@ui~:reload|', $this->data);
+        $this->c('@ui~:reload|', $this->data);
     }
 
     public function onTypeSelect()
